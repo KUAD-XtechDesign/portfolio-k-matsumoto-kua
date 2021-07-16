@@ -292,3 +292,91 @@ relation
 .relation .case .txt{
   
 }
+
+
+/* .case{
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+
+/* .backgray{
+  background-color: #ccc;
+  padding: 30px;
+} */
+
+/*======================================================
+case1
+======================================================*/
+
+#case1{
+  border-left: 1px solid #000;
+  margin-left: 30px;
+}
+
+#case1 li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 90px;
+}
+
+#case1 li .year{
+  width: 120px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+#case1 li .year::before{
+  content: '';
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 100px;
+  background-color: #ff9a02;
+  left: -12px;
+  margin-right: 5px;
+}
+
+#case1 li .date{
+  width: 60px;
+}
+
+#case1 li .content{
+  flex: 1;
+  font-size: 80%;
+}
+
+
+/*======================================================
+case2
+======================================================*/
+
+#case2 li{
+  display: flex;
+  /* background-color: rgb(0, 0, 255); */
+  padding-bottom: 20px;
+
+  font-family: serif;
+}
+
+#case2 li .year{
+  /* background-color: rgb(255, 0, 0); */
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#case2 li .content{
+  /* background-color: rgb(0, 255, 0); */
+  flex: 1;
+  border-left: 1px dotted #000;
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 4;
+}
+
+
+
