@@ -82,7 +82,7 @@ header a {
 
 header .inner {
   display: flex;
-  background-color: #fff;
+  background-color: #009082;
   justify-content: space-between;
   padding: 15px 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
@@ -222,6 +222,10 @@ report
 .report .outline .pic {
   width: 45%;
   border: 3px solid #999;
+}
+
+.outline .pic iframe{
+  width: 100%;
 }
 
 .report .outline .txt {
